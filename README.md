@@ -34,7 +34,6 @@
 
 ### Contacts ✉
 
-- <img src="https://blog.logomyway.com/wp-content/uploads/2020/12/discord-mascot.png" width="24px"> ! Møon ⁵⁴ 🌙#0154
 - <img src="https://drvendas.com.br/wp-content/uploads/2018/08/logo-gmail-1.png" width="24px">  biancadcastro2501@gmail.com
 
 ##
