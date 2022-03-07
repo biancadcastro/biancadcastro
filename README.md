@@ -10,7 +10,7 @@
 
 ## A little text about me 🍒
  
-> Oi oi gnt, prazer meu nome é Bianca, tenho 14 aninhos, e moro em uma cidadezinha no interior de são paulo, des de pequena sempre gostei muito de desenhar meus pais dizem q eu vivia desenhando nas paredes do meu quarto kkk. 
+> Oi oi gnt, prazer meu nome é Bianca, tenho 15 aninhos, e moro em uma cidadezinha no interior de são paulo, des de pequena sempre gostei muito de desenhar meus pais dizem q eu vivia desenhando nas paredes do meu quarto kkk. 
 
 > Ultimamente minha vida tem sido um tanto quanto corrida, com meus estudos e com algumas coisas da minha vida pessoal não tenho tido tanto tempo para desenhar sksks, eu gosto bastante de programar e de ajudar as pessoas, e eu me apego mt rapido e acabo me machucando bastante as vezes sks.
 
