@@ -14,8 +14,8 @@
 
 > Ultimamente minha vida tem sido um tanto quanto corrida, com meus estudos e com algumas coisas da minha vida pessoal não tenho tido tanto tempo para desenhar sksks, eu gosto bastante de programar e de ajudar as pessoas, e eu me apego mt rapido e acabo me machucando bastante as vezes sks.
 
-<img height="180em"  src="https://github-readme-stats.vercel.app/api?username=biancadcastro&show_icons=true&theme=radical&include_all_commits=true&count_private=true">
-<img height="180em"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=biancadcastro&layout=compact&langs_count=16&theme=radical">
+<img height="100em"  src="https://github-readme-stats.vercel.app/api?username=biancadcastro&show_icons=true&theme=radical&include_all_commits=true&count_private=true">
+<img height="100em"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=biancadcastro&layout=compact&langs_count=16&theme=radical">
 
 ##
 
