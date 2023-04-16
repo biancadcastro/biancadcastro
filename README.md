@@ -1,4 +1,4 @@
-<h1 align="left"> Hello world <img src="https://raw.githubusercontent.com/gist/arunprakashpj/48aa20057048b46c6f9ba9d114a8b76f/raw/69a9d496f651091a509ea8d9913c4aef5c419afb/Hi.gif" size=24/> </h1>
+<h1 align="left"> Hello world <img src="https://raw.githubusercontent.com/gist/arunprakashpj/48aa20057048b46c6f9ba9d114a8b76f/raw/69a9d496f651091a509ea8d9913c4aef5c419afb/Hi.gif" width="24" height="24"/> </h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=biancadcastro&color=yellow" /> </p>
 
 - 🚀 Junior Fullstack Developer 
