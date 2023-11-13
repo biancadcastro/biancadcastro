@@ -2,7 +2,6 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=biancadcastro&color=yellow" /> </p>
 
 - 🚀 Junior Fullstack Developer 
-- 📆 16 years
 - 💬 Ask me about **JavaScript, TypeScript, HTML, CSS**
 - 👸 My pronoums: She/Her
 - 📖 I’m currently learning NextJS
