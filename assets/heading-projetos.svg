@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="38" viewBox="0 0 200 38" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', Consolas, monospace">
+  <rect x="0.5" y="0.5" width="199" height="37" rx="8" fill="#fcf2ee" stroke="#ecd9df"/>
+  <text x="14" y="24" font-size="15" font-weight="700"><tspan fill="#b4637a">$</tspan><tspan fill="#4a3540"> ls projetos/</tspan></text>
+</svg>

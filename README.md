@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Docker-8f7168?style=flat-square&logo=docker&logoColor=FCF2EE" alt="Docker"/>
 </p>
 
-## $ ls métricas/
+<img src="./assets/heading-metricas.svg" alt="$ ls métricas/" height="38"/>
 
 <div align="center">
   <img src="./github-metrics.svg" alt="métricas do github"/>
@@ -18,7 +18,9 @@
 
 <sub>gerado automaticamente todo dia pela GitHub Action em <code>.github/workflows/metrics.yml</code></sub>
 
-## $ ls projetos/
+<br><br>
+
+<img src="./assets/heading-projetos.svg" alt="$ ls projetos/" height="38"/>
 
 ```
 bibis-links/          # TypeScript — página de links pessoal
@@ -27,10 +29,6 @@ Bot-KL4/               # JavaScript — bot de moderação da KL4
 Hope-Bot/              # JavaScript — bot para o servidor Hope GTA-RP
 isDecimal/             # JavaScript
 ```
-
-## $ cat contato.txt
-
-> link · link · link
 
 <br>
 
