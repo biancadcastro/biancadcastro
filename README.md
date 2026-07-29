@@ -12,13 +12,14 @@
 
 <img src="./assets/heading-metricas.svg" alt="$ ls métricas/" height="38"/>
 
+<!-- descomentar assim que a Action rodar com sucesso (resolver o billing primeiro):
 <div align="center">
   <img src="./github-metrics.svg" alt="métricas do github"/>
 </div>
+-->
+<sub>gerado automaticamente pela GitHub Action em <code>.github/workflows/metrics.yml</code> — ainda vai aparecer aqui assim que ela rodar</sub>
 
-<sub>gerado automaticamente todo dia pela GitHub Action em <code>.github/workflows/metrics.yml</code></sub>
-
-<br><br>
+<br>
 
 <img src="./assets/heading-projetos.svg" alt="$ ls projetos/" height="38"/>
 
