@@ -17,7 +17,6 @@
   <img src="./github-metrics.svg" alt="métricas do github"/>
 </div>
 -->
-<sub>gerado automaticamente pela GitHub Action em <code>.github/workflows/metrics.yml</code> — ainda vai aparecer aqui assim que ela rodar</sub>
 
 <br>
 
