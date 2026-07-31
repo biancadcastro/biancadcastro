@@ -3,21 +3,41 @@
 </div>
 
 <p align="center" style="margin-top: 20px;">
-  <img src="https://skillicons.dev/icons?i=nodejs,ts,nextjs,mongodb,docker&theme=light" alt="Node.js, TypeScript, Next.js, MongoDB e Docker"/>
+  <table align="center">
+    <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=nodejs&theme=light" width="42" alt="Node.js"/><br/><sub><b>Node.js</b></sub></td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=ts&theme=light" width="42" alt="TypeScript"/><br/><sub><b>TypeScript</b></sub></td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=nextjs&theme=light" width="42" alt="Next.js"/><br/><sub><b>Next.js</b></sub></td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=mongodb&theme=light" width="42" alt="MongoDB"/><br/><sub><b>MongoDB</b></sub></td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=docker&theme=light" width="42" alt="Docker"/><br/><sub><b>Docker</b></sub></td>
+    </tr>
+  </table>
 </p>
 
 <img src="./assets/heading-metricas.svg" alt="$ ls métricas/" height="38"/>
 
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=biancadcastro&theme=default" alt="resumo das estatísticas do GitHub"/>
+</div>
+
+<br>
+
+<img src="./assets/heading-linguagens.svg" alt="$ ls linguagens/" height="38"/>
+
 <table align="center">
   <tr>
     <td>
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=biancadcastro&theme=default" alt="estatísticas do GitHub"/>
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=biancadcastro&theme=default" alt="linguagens por repositório"/>
     </td>
     <td>
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=biancadcastro&theme=default" alt="linguagens dos repositórios"/>
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=biancadcastro&theme=default" alt="linguagens mais utilizadas nos commits"/>
     </td>
   </tr>
 </table>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=biancadcastro&theme=default" alt="estatísticas de desenvolvimento"/>
+</div>
 
 <br>
 
