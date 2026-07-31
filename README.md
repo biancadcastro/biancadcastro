@@ -2,12 +2,12 @@
   <img src="./assets/hero-terminal.svg" alt="terminal" width="100%"/>
 </div>
 
-<p align="center">
+<p align="center" style="margin-top: 20px;">
   <img src="https://img.shields.io/badge/Node.js-e2653a?style=flat&logo=nodedotjs&logoColor=FCF2EE" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/TypeScript-c2573a?style=flat-square&logo=typescript&logoColor=FCF2EE" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Next.js-6b3a28?style=flat-square&logo=nextdotjs&logoColor=FCF2EE" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/MongoDB-c9847a?style=flat-square&logo=mongodb&logoColor=FCF2EE" alt="MongoDB"/>
-  <img src="https://img.shields.io/badge/Docker-8f7168?style=flat-square&logo=docker&logoColor=FCF2EE" alt="Docker"/>
+  <img src="https://img.shields.io/badge/TypeScript-c2573a?style=flat&logo=typescript&logoColor=FCF2EE" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Next.js-6b3a28?style=flat&logo=nextdotjs&logoColor=FCF2EE" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/MongoDB-c9847a?style=flat&logo=mongodb&logoColor=FCF2EE" alt="MongoDB"/>
+  <img src="https://img.shields.io/badge/Docker-8f7168?style=flat&logo=docker&logoColor=FCF2EE" alt="Docker"/>
 </p>
 
 <img src="./assets/heading-metricas.svg" alt="$ ls métricas/" height="38"/>
