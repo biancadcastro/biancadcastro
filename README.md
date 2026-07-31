@@ -12,11 +12,9 @@
 
 <img src="./assets/heading-metricas.svg" alt="$ ls métricas/" height="38"/>
 
-<!-- descomentar assim que a Action rodar com sucesso (resolver o billing primeiro):
 <div align="center">
-  <img src="./github-metrics.svg" alt="métricas do github"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=biancadcastro&theme=default" alt="resumo do perfil no GitHub"/>
 </div>
--->
 
 <br>
 
