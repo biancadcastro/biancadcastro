@@ -1,0 +1,47 @@
+name: Atualizar perfil Bibis
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/**
+      - assets/source/**
+      - package.json
+      - package-lock.json
+      - .github/workflows/metrics.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-artwork
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Gerar painéis com dados do GitHub
+        run: npm run generate
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Salvar imagens atualizadas
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/generated/*.png
+          if ! git diff --cached --quiet; then
+            git commit -m 'Atualiza estatísticas do perfil [skip ci]'
+            git push
+          fi

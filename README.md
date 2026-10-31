@@ -1,21 +1,14 @@
-<div align="center">
-  <img src="./assets/hero-terminal.svg" alt="terminal" width="100%"/>
-</div>
+<a href="https://bianca-castro-portfolio.cuddlyibex65.chatgpt.site">
+  <img src="./assets/generated/hero.png" width="100%" alt="Bibis — Bianca de Castro. Crio para GTA e FiveM: veículos, roupas, texturas e ferramentas. Conheça meu portfólio." />
+</a>
 
-<br><br>
+<img src="./assets/generated/activity.png" width="100%" alt="Estatísticas reais do GitHub: contribuições do último ano, repositórios públicos próprios, seguidores, calendário de atividade e linguagens. Atualização diária pelo GitHub Actions." />
 
-<div align="center">
-  <img src="./assets/metrics-custom.svg" alt="resumo das estatísticas do GitHub" width="100%"/>
-</div>
+<a href="https://bianca-castro-portfolio.cuddlyibex65.chatgpt.site">
+  <img src="./assets/generated/projects.png" width="100%" alt="Ferramentas que eu crio: RedHorn Studio, para organizar peças, texturas e projetos, e Wins Review, para acompanhar o histórico de trabalho e revisar entregas." />
+</a>
 
-<br><br>
-
-<div align="center">
-  <img src="./assets/languages-custom.svg" alt="linguagens e estatísticas de desenvolvimento" width="100%"/>
-</div>
-
-<br><br>
-
-<div align="center">
-  <img src="./assets/projects-custom.svg" alt="projetos em destaque" width="100%"/>
-</div>
+<p align="center">
+  <a href="https://bianca-castro-portfolio.cuddlyibex65.chatgpt.site">Conheça meu portfólio</a> ·
+  <a href="https://github.com/biancadcastro?tab=repositories">Meus repositórios</a>
+</p>
