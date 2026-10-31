@@ -1,31 +1,34 @@
-<a href="https://bianca-castro-portfolio.cuddlyibex65.chatgpt.site">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/hero.png" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/generated/hero-light.png" />
-    <img src="./assets/generated/hero-light.png" width="100%" alt="Bibis — Bianca de Castro. Design, 3D e desenvolvimento para GTA e FiveM." />
-  </picture>
-</a>
+# Design, 3D e desenvolvimento
 
-Sou **Bianca de Castro**, também conhecida como **Bibis**. Desenvolvo aplicações Full Stack e trabalho com veículos, roupas, plotagens e texturas para GTA / FiveM.
+Sou **Bianca de Castro**, também conhecida como **Bibis**. Desenvolvo aplicações Full Stack e trabalho com veículos, roupas, plotagens e texturas para **GTA / FiveM**.
 
-**No meu dia a dia:** JavaScript, TypeScript, Node.js, React, Next.js, MongoDB, Blender e Photoshop.
+[Meu portfólio](https://bianca-castro-portfolio.cuddlyibex65.chatgpt.site) · [Repositórios](https://github.com/biancadcastro?tab=repositories)
 
-### Um pouco do meu GitHub
+### O que estou construindo
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/activity.png" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/activity-light.png" />
-  <img src="./assets/generated/activity-light.png" width="100%" alt="Contribuições do último ano, repositórios públicos próprios, seguidores, calendário de atividade e linguagens. Dados reais atualizados diariamente pelo GitHub Actions." />
-</picture>
+- **RedHorn Studio** — organização de peças, texturas e projetos para GTA / FiveM.
+- **Wins Review** — acompanhamento do trabalho, histórico e revisão de entregas.
 
-### Ferramentas que eu crio
+### Ferramentas do meu dia a dia
 
-| RedHorn Studio | Wins Review |
-| :--- | :--- |
-| [![Interface do RedHorn Studio](./assets/source/redhorn-studio.png)](https://bianca-castro-portfolio.cuddlyibex65.chatgpt.site) | [![Interface do Wins Review](./assets/source/wins-review.png)](https://bianca-castro-portfolio.cuddlyibex65.chatgpt.site) |
-| Organização de peças, texturas e projetos para GTA / FiveM. | Histórico de trabalho, acompanhamento e revisão de entregas. |
+**Desenvolvimento:** JavaScript, TypeScript, Node.js, React, Next.js e MongoDB.
 
-<p align="center">
-  <a href="https://bianca-castro-portfolio.cuddlyibex65.chatgpt.site">Conheça meu portfólio</a> ·
-  <a href="https://github.com/biancadcastro?tab=repositories">Meus repositórios</a>
-</p>
+**Criação:** Blender, Photoshop, modelagem 3D e texturização.
+
+### Atividade no GitHub
+
+<!-- GITHUB-STATS:START -->
+
+| Contribuições no último ano | Repositórios públicos próprios | Seguidores |
+| :---: | :---: | :---: |
+| **1.329** | **6** | **32** |
+
+**Linguagens:** TypeScript 61,7% · JavaScript 37,2% · CSS 1,1%.
+
+<!-- GITHUB-STATS:END -->
+
+<sub>Dados públicos atualizados diariamente. Linguagens dos repositórios próprios, sem forks.</sub>
+
+---
+
+Feito com carinho, café e atenção aos detalhes. ☕

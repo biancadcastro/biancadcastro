@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {summarize, collect} from './profile-data.mjs';
+import {updateStats} from './readme-stats.mjs';
 
 test('agrega linguagens por bytes e exclui dados privados', () => {
   const repo=(isPrivate,values)=>({isPrivate,languages:{edges:values.map(([name,size])=>({size,node:{name}}))}});
@@ -21,4 +22,22 @@ test('perfil sem linguagens gera lista vazia, sem percentuais inválidos', () =>
 
 test('sem token não tenta fabricar estatísticas', async () => {
   await assert.rejects(collect(''),/GITHUB_TOKEN/);
+});
+
+test('atualização em Markdown preserva o restante do README e é idempotente',()=>{
+  const data={contributions:1234,repositories:6,followers:32,languages:[{name:'TypeScript',percent:60.5}]};
+  const original='Apresentação\n<!-- GITHUB-STATS:START -->\nantigo\n<!-- GITHUB-STATS:END -->\nProjetos';
+  const updated=updateStats(original,data);
+  assert.ok(updated.startsWith('Apresentação\n'));
+  assert.ok(updated.endsWith('\nProjetos'));
+  assert.match(updated,/\*\*1\.234\*\*/);
+  assert.match(updated,/TypeScript 60,5%/);
+  assert.equal(updateStats(updated,data),updated);
+  assert.doesNotMatch(updated,/<img|<picture|!\[/);
+});
+
+test('marcadores inválidos impedem sobrescrita do conteúdo',()=>{
+  const data={contributions:0,repositories:0,followers:0,languages:[]};
+  assert.throws(()=>updateStats('Sem marcadores',data),/Marcadores/);
+  assert.throws(()=>updateStats('<!-- GITHUB-STATS:START --><!-- GITHUB-STATS:END --><!-- GITHUB-STATS:START -->',data),/Marcadores/);
 });

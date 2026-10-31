@@ -33,6 +33,6 @@ export async function collect(token) {
   });
   if (!response.ok) throw new Error(`GitHub respondeu HTTP ${response.status}`);
   const body = await response.json();
-  if (body.errors?.length || !body.data?.user) throw new Error('Consulta GitHub falhou; imagens anteriores preservadas.');
+  if (body.errors?.length || !body.data?.user) throw new Error('Consulta GitHub falhou; README anterior preservado.');
   return summarize(body.data.user);
 }
