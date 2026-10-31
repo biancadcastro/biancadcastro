@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - scripts/**
+      - assets/templates/**
       - package.json
       - package-lock.json
       - .github/workflows/metrics.yml
@@ -31,7 +32,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm test
-      - name: Atualizar estatísticas em Markdown
+      - name: Atualizar estatísticas no visual original
         run: npm run generate
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -39,7 +40,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md
+          git add assets/metrics-custom.svg assets/languages-custom.svg
           if ! git diff --cached --quiet; then
             git commit -m 'Atualiza estatísticas do perfil [skip ci]'
             git push
