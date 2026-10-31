@@ -21,9 +21,9 @@ Sou **Bianca de Castro**, também conhecida como **Bibis**. Desenvolvo aplicaç�
 
 | Contribuições no último ano | Repositórios públicos próprios | Seguidores |
 | :---: | :---: | :---: |
-| **1.329** | **6** | **32** |
+| **1.330** | **6** | **32** |
 
-**Linguagens:** TypeScript 61,7% · JavaScript 37,2% · CSS 1,1%.
+**Linguagens:** TypeScript 63,2% · JavaScript 35,7% · CSS 1,1%.
 
 <!-- GITHUB-STATS:END -->
 
