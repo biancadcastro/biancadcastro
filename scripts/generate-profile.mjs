@@ -12,7 +12,14 @@ const fonts = {
   pixel:opentype.loadSync(path.join(source,'pixelify.ttf')),
   body:opentype.loadSync(path.join(source,'nunito.ttf')),
 };
-const c = {bg:'#1b111d', surface:'#291a2b', pink:'#f493b8', ink:'#ffedf4', muted:'#c5a3bc', line:'#67425d'};
+// Fetch once so both themes display identical real statistics.
+const data = await collect(process.env.GITHUB_TOKEN);
+await fs.mkdir(output,{recursive:true});
+
+for (const theme of ['dark','light']) {
+const c = theme === 'light'
+  ? {bg:'#ffffff', surface:'#fbf2f7', pink:'#a54372', ink:'#352039', muted:'#715369', line:'#e4ccda'}
+  : {bg:'#1b111d', surface:'#291a2b', pink:'#f493b8', ink:'#ffedf4', muted:'#c5a3bc', line:'#67425d'};
 const text = (value,x,y,size=20,color=c.ink,font='body') => {
   const p = fonts[font].getPath(String(value),x,y,size);
   p.fill=color;
@@ -28,12 +35,9 @@ const image = async (file,x,y,width,height) => {
 };
 const png = async (name,svg) => {
   const bytes=await sharp(Buffer.from(svg)).png().toBuffer();
-  await fs.writeFile(path.join(output,name),bytes);
+  const filename = theme === 'light' ? name.replace('.png','-light.png') : name;
+  await fs.writeFile(path.join(output,filename),bytes);
 };
-
-// Fetch before replacing any image. A failed API request must never publish made-up values.
-const data = await collect(process.env.GITHUB_TOKEN);
-await fs.mkdir(output,{recursive:true});
 
 let hero = await image('studio.png',0,0,1200,675);
 hero += `<defs><linearGradient id="fade"><stop offset="0" stop-color="${c.bg}"/><stop offset=".36" stop-color="${c.bg}" stop-opacity=".92"/><stop offset=".64" stop-color="${c.bg}" stop-opacity=".1"/><stop offset="1" stop-color="${c.bg}" stop-opacity="0"/></linearGradient><linearGradient id="bottom" x2="0" y2="1"><stop offset=".7" stop-color="${c.bg}" stop-opacity="0"/><stop offset="1" stop-color="${c.bg}"/></linearGradient></defs>`;
@@ -56,7 +60,9 @@ const stats=[[data.contributions.toLocaleString('pt-BR'),'Contribuições no úl
 stats.forEach(([value,label],i)=>{const x=48+i*375;activity+=rect(x,137,354,110,c.surface,8,c.line)+text(value,x+22,192,43,c.pink,'pixel')+text(label,x+22,224,17,c.muted);});
 activity+=text('Cada quadradinho, um dia de criação.',48,292,25,c.ink,'pixel');
 const weeks=data.weeks;
-const colors=[c.surface,'#543047','#81516e','#c46c98',c.pink];
+const colors=theme === 'light'
+  ? [c.surface,'#edd3e0','#dca0bd','#c46c98',c.pink]
+  : [c.surface,'#543047','#81516e','#c46c98',c.pink];
 const max=Math.max(1,...weeks.flatMap(w=>w.contributionDays.map(d=>d.contributionCount)));
 weeks.forEach((week,w)=>week.contributionDays.forEach(day=>{
  const row=new Date(day.date+'T12:00:00Z').getUTCDay();
@@ -88,4 +94,5 @@ for (const [i,file,title,description] of [[0,'redhorn-studio.png','RedHorn Studi
 }
 projects+=line(48,469,1104)+text('Bibis',48,517,30,c.pink,'pixel')+text('Feito com carinho, café e muitos detalhes.',155,515,17,c.muted)+heart(1125,496,.9);
 await png('projects.png',frame(550,projects));
-console.log('3 painéis gerados com dados reais do GitHub.');
+}
+console.log('6 painéis gerados em temas claro e escuro com dados reais do GitHub.');
